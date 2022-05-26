@@ -28,6 +28,7 @@ exports.lambdaHandler = async (event, context) => {
         console.log(err);
         return err;
     }
-
+    // Test console log for git commit
+    console.log(response)
     return response
 };
